@@ -7,5 +7,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Say Hello
+    
+        run: echo "Hello"
+    
       - name: Show Date
+    
         run: date
+    
+      - name: Show Current Folder
+
+        run: pwd
