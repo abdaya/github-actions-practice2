@@ -18,3 +18,7 @@ jobs:
       - name: Show Current Folder
 
         run: pwd
+
+      - name: Show subfolders
+
+        run: ls
